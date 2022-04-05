@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  server:
+    build: .
+    environment:
+      - ENVIRONMENT=dev
+      - PORT=8080
+    volumes:
+      - ./packages:/data/packages
+    ports:
+      - 8080:8080

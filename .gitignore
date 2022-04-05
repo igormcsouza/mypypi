@@ -1,0 +1,4 @@
+# Uploaded packages
+packages/*
+!packages/.gitkeep
+.docker-compose.yml.swp
